@@ -11,7 +11,7 @@
                     '/blog/show/{slug}',
                 ],
                 'name' => [
-                    'show_slug',
+                    'show',
                 ],
                 'requirements' => [
                     [

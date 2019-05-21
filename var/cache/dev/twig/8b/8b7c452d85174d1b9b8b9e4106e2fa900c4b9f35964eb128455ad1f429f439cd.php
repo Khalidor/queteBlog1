@@ -69,6 +69,7 @@ class __TwigTemplate_53acfca908e9fab8459e1c344b74a34cd86d0969159280201d44b88d35d
         echo twig_escape_filter($this->env, (isset($context["accueil"]) || array_key_exists("accueil", $context) ? $context["accueil"] : (function () { throw new RuntimeError('Variable "accueil" does not exist.', 7, $this->source); })()), "html", null, true);
         echo "</h1>
 
+
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -102,6 +103,7 @@ class __TwigTemplate_53acfca908e9fab8459e1c344b74a34cd86d0969159280201d44b88d35d
 
 
 <h1> {{ accueil }}</h1>
+
 
 {% endblock %}", "default.html.twig", "/var/www/html/symfony/blog/queteBlog1/templates/default.html.twig");
     }

@@ -21,11 +21,6 @@ class Category
      */
     private $name;
 
-    /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Article")
-     * @ORM\JoinColumn(nullable=false)
-     */
-    private $category;
 
     public function getId(): ?int
     {
@@ -44,15 +39,4 @@ class Category
         return $this;
     }
 
-    public function getCategory(): ?Article
-    {
-        return $this->category;
-    }
-
-    public function setCategory(?Article $category): self
-    {
-        $this->category = $category;
-
-        return $this;
-    }
 }
