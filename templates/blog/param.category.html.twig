@@ -1,0 +1,11 @@
+{% extends "base.html.twig"  %}
+
+{% block body %}
+
+
+    {% for article in articles %}
+        <h1>{{ article.id }}: {{ article.title }}<br></h1>
+        <p>{{ article.content }}<br></p>
+    {% endfor %}
+
+{% endblock %}
