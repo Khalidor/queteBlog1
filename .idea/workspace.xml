@@ -2,240 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c3cb40-19a6-4a00-a25e-4cf1044af6fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/blog/category.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/list.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/test.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/category.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/category.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/default.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ.legacy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getAnnotations_CacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getAnnotations_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getBlogControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getCacheClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getCacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getCache_AppClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getCache_GlobalClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getCache_SystemClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getCategoryRepositoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_CommandLoaderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_AboutService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_AssetsInstallService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_CacheClearService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_CachePoolClearService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_CachePoolDeleteService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_CachePoolPruneService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_CacheWarmupService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_ConfigDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_ConfigDumpReferenceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_ContainerDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_DebugAutowiringService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_EventDispatcherDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_FormDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineCache_ContainsCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineCache_DeleteCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineCache_FlushCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineCache_StatsCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_DiffCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_DumpSchemaCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_ExecuteCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_GenerateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_LatestCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_MigrateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_RollupCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_StatusCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_UpToDateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_PublicAlias_DoctrineMigrations_VersionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_RouterDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_RouterMatchService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_TranslationDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_TranslationUpdateService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_XliffLintService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_Command_YamlLintService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getConsole_ErrorListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_ArgumentResolver_DefaultService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_ArgumentResolver_RequestAttributeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_ArgumentResolver_RequestService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_ArgumentResolver_ServiceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_ArgumentResolver_SessionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_ArgumentResolver_VariadicService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_DumpListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_FileLinkFormatter_UrlFormatService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_Security_UserValueResolverService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_Security_Voter_Security_Access_AuthenticatedVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_Security_Voter_Security_Access_SimpleRoleVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDebug_Security_Voter_VoteListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDefaultControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrineCache_Providers_Doctrine_Orm_DefaultMetadataCacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrineCache_Providers_Doctrine_Orm_DefaultQueryCacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrineCache_Providers_Doctrine_Orm_DefaultResultCacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_CacheClearMetadataCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_CacheClearQueryCacheCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_CacheClearResultCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_CacheCollectionRegionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_ClearEntityRegionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_ClearQueryRegionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_DatabaseCreateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_DatabaseDropCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_DatabaseImportCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_Dbal_DefaultConnectionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_EnsureProductionSettingsCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_GenerateEntitiesCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_MappingConvertCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_MappingImportCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_MappingInfoCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_Orm_DefaultEntityManagerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_Orm_ProxyCacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_Orm_Validator_UniqueService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_QueryDqlCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_QuerySqlCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_SchemaCreateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_SchemaDropCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_SchemaUpdateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getDoctrine_SchemaValidateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getFilesystemService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_ChoiceListFactory_CachedService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_FactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_RegistryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_ServerParamsService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_TypeExtension_CsrfService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_TypeExtension_Form_DataCollectorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_TypeExtension_Form_HttpFoundationService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_TypeExtension_Form_TransformationFailureHandlingService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_TypeExtension_Form_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_TypeExtension_Upload_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_TypeGuesser_DoctrineService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_TypeGuesser_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_Type_ChoiceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_Type_EntityService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_Type_FileService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getForm_Type_FormService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getFragment_Renderer_InlineService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getHttpExceptionListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeAuthService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeCrudService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeEntityService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeFixturesService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeFormService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeFunctionalTestService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeMigrationService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeRegistrationFormService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeSerializerEncoderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeSerializerNormalizerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeSubscriberService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeTwigExtensionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeUnitTestService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeUserService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_AutoCommand_MakeVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_DoctrineHelperService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_FileManagerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_GeneratorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMaker_Renderer_FormTypeRendererService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getMonolog_Logger_SecurityService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getNameRepositoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getPropertyAccessorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getPropertyInfo_SerializerExtractorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getRedirectControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getRouter_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getRouting_LoaderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_AccessListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_AuthenticationUtilsService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_Authentication_Listener_Anonymous_MainService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_ChannelListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_Command_UserPasswordEncoderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_ContextListener_0Service.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_Csrf_TokenManagerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_Firewall_Map_Context_DevService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_Firewall_Map_Context_MainService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_PasswordEncoderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSecurity_Validator_UserPasswordService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSerializerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSerializer_Mapping_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSerializer_Mapping_ClassMetadataFactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getServicesResetterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSessionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSession_Storage_NativeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSwiftmailer_Command_DebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSwiftmailer_Command_NewEmailService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSwiftmailer_Command_SendEmailService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSwiftmailer_EmailSender_ListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSwiftmailer_Mailer_DefaultService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSwiftmailer_Mailer_Default_Plugin_MessageloggerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSwiftmailer_Mailer_Default_Transport_RealService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getSwiftmailer_TransportService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTemplateControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_ExtractorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_CsvService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_DatService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_IniService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_JsonService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_MoService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_PhpService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_PoService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_QtService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_ResService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_XliffService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_Loader_YmlService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_ReaderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTranslation_WarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_Command_DebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_Command_LintService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_Controller_ExceptionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_Controller_PreviewErrorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_ExceptionListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_Form_RendererService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_Runtime_HttpkernelService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_Runtime_SecurityCsrfService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getTwig_TemplateCacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getValidator_EmailService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getValidator_ExpressionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getValidator_Mapping_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getVarDumper_Command_ServerDumpService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getWebProfiler_Controller_ExceptionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getWebProfiler_Controller_ProfilerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getWebProfiler_Controller_RouterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getWebServer_Command_ServerLogService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getWebServer_Command_ServerRunService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getWebServer_Command_ServerStartService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getWebServer_Command_ServerStatusService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/getWebServer_Command_ServerStopService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/get_ServiceLocator_KTVqfp6Service.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/get_ServiceLocator_LSIKWsrService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/removed-ids.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerLq5NAsZ/srcApp_KernelDevDebugContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/doctrine/orm/Proxies/__CG__AppEntityCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/doctrine/orm/Proxies/__CG__AppEntityCategory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/+/-/i-GRsLuuJ6czzCdB0PEg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/+/-/i-GRsLuuJ6czzCdB0PEg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/2/C/OJ8cEIprpolTITJjsdeg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/2/C/OJ8cEIprpolTITJjsdeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/4/6/XaDCdH4J8bvPb07WrSEw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/4/6/XaDCdH4J8bvPb07WrSEw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/5/L/sFy9c4MhnqL4ivgm6FAg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/5/L/sFy9c4MhnqL4ivgm6FAg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/5/P/5XUiyfU5BuYeBSc2w3bQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/5/P/5XUiyfU5BuYeBSc2w3bQ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/B/G/d0VBU2J72+a53yZUHJMQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/B/G/d0VBU2J72+a53yZUHJMQ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/E/E/jXODftaBx8ek8syZj1Jg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/E/E/jXODftaBx8ek8syZj1Jg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/F/A/WuZXKBlREml0C72elxtA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/F/A/WuZXKBlREml0C72elxtA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/G/M/x3MjWRd+UQt7J6My5Eyg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/G/M/x3MjWRd+UQt7J6My5Eyg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/I/3/YqmlKEqrGKLpmA0Waj0w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/I/3/YqmlKEqrGKLpmA0Waj0w" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/J/8/2A1-qFm0E8eSZpRjO60w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/J/8/2A1-qFm0E8eSZpRjO60w" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/J/M/YGbX92H36zys3cn6eQUw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/J/M/YGbX92H36zys3cn6eQUw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/M/C/2AGSlWBqzN7WiIkZzHPQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/M/C/2AGSlWBqzN7WiIkZzHPQ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/O/9/Uxg6OTnml422yUXzZQdg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/O/9/Uxg6OTnml422yUXzZQdg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/O/S/Uw-8QyAwkiqstUpjQH0A" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/O/S/Uw-8QyAwkiqstUpjQH0A" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/P/J/RMJ1lukqSh-4n0oNAjbQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/P/J/RMJ1lukqSh-4n0oNAjbQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/Y/S/b5bahugH4w8lWMr6vsJA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/rucKbSgDMi/Y/S/b5bahugH4w8lWMr6vsJA" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/02/0299b56c09a24f3b417ef612a7639b3fb093086e34b5e27ea22a679af1a6a964.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/02/0299b56c09a24f3b417ef612a7639b3fb093086e34b5e27ea22a679af1a6a964.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/8b/8b7c452d85174d1b9b8b9e4106e2fa900c4b9f35964eb128455ad1f429f439cd.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/8b/8b7c452d85174d1b9b8b9e4106e2fa900c4b9f35964eb128455ad1f429f439cd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/2d/2d13257e8afa1198eee3867f809850a57a44fb333f19e460e1d9dbfec2a14e57.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/2d/2d13257e8afa1198eee3867f809850a57a44fb333f19e460e1d9dbfec2a14e57.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ec/ec5a27851f92c37caee2a2444207f10be3374579830195150dcda17812db5e73.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ec/ec5a27851f92c37caee2a2444207f10be3374579830195150dcda17812db5e73.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/dev.log" afterDir="false" />
     </list>
@@ -252,14 +49,14 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.86502546">
+    <splitter split-orientation="horizontal" split-proportion="0.6749257">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Controller/BlogController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="60" selection-start-line="60" selection-end-line="60" />
+                <state relative-caret-position="375">
+                  <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
                   <folding>
                     <element signature="e#71#94#0#PHP" expanded="true" />
                   </folding>
@@ -268,31 +65,31 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="415">
+                  <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/blog/test.html.twig">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controller/DefaultController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
+                <state relative-caret-position="195">
                   <caret line="14" selection-start-line="14" selection-end-line="14" />
                   <folding>
                     <element signature="e#71#136#0#PHP" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/blog/category.html.twig">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Entity/Category.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="40" selection-start-line="40" selection-end-line="40" />
                 </state>
               </provider>
             </entry>
@@ -302,55 +99,40 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lancementProjet Symphony.php">
+            <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Entity/Category.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-345">
+                  <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#30#78#0#PHP" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-270">
-                  <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="7" selection-end-line="18" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/default.html.twig">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/blog/index.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/blog/show.html.twig">
+            <entry file="file://$PROJECT_DIR$/templates/blog/category.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="48" selection-start-line="9" selection-end-line="9" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -358,6 +140,11 @@
         </leaf>
       </split-second>
     </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>catego</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -368,15 +155,16 @@
         <option value="$PROJECT_DIR$/src/Controller/.gitignore" />
         <option value="$PROJECT_DIR$/lancementProjet Symphony.php" />
         <option value="$PROJECT_DIR$/.env.local" />
-        <option value="$PROJECT_DIR$/src/Entity/Category.php" />
         <option value="$PROJECT_DIR$/templates/default.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/templates/blog/test.html.twig" />
+        <option value="$PROJECT_DIR$/templates/blog/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/blog/show.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/templates/blog/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/templates/blog/category.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/Controller/BlogController.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/templates/blog/category.html.twig" />
       </list>
     </option>
   </component>
@@ -489,10 +277,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1533" />
-    <option name="height" value="875" />
+    <option name="x" value="545" />
+    <option name="y" value="27" />
+    <option name="width" value="1010" />
+    <option name="height" value="682" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -516,12 +304,6 @@
               <item name="queteBlog1" type="b2602c69:ProjectViewProjectNode" />
               <item name="queteBlog1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="queteBlog1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="queteBlog1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -529,6 +311,17 @@
               <item name="queteBlog1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="queteBlog1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="queteBlog1" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="queteBlog1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="queteBlog1" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="queteBlog1" type="b2602c69:ProjectViewProjectNode" />
@@ -577,17 +370,19 @@
       <workItem from="1557932369677" duration="8427000" />
       <workItem from="1558340154620" duration="4351000" />
       <workItem from="1558353195030" duration="1409000" />
-      <workItem from="1558422900840" duration="17324000" />
+      <workItem from="1558422900840" duration="22866000" />
+      <workItem from="1558537781771" duration="19891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35847000" />
+    <option name="totallyTimeSpent" value="61280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20712845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3214526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -600,7 +395,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -636,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190521075031.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -650,15 +438,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/ArticleRepository.php">
+    <entry file="file://$PROJECT_DIR$/templates/blog/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="195">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#71#136#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/test.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lancementProjet Symphony.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -667,62 +472,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Repository/ArticleRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="7" selection-end-line="18" selection-end-column="7" />
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-345">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="e#71#136#0#PHP" expanded="true" />
+            <element signature="e#30#78#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/category.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="48" selection-start-line="9" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+    <entry file="file://$PROJECT_DIR$/templates/blog/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="375">
+          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
           <folding>
             <element signature="e#71#94#0#PHP" expanded="true" />
           </folding>

@@ -117,8 +117,13 @@ class __TwigTemplate_cd549b1ffd48e58c6a6d0646e3cc337d561d00e482ebda440ab5d35d3d7
             echo "</h2>
             <p>";
             // line 12
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["article"], "content", [], "any", false, false, false, 12), "html", null, true);
+            echo twig_escape_filter($this->env, twig_slice($this->env, twig_get_attribute($this->env, $this->source, $context["article"], "content", [], "any", false, false, false, 12), 0, 150), "html", null, true);
             echo "</p>
+            <a href=\"";
+            // line 13
+            echo twig_escape_filter($this->env, twig_lower_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("show", ["slug" => twig_replace_filter(twig_get_attribute($this->env, $this->source, $context["article"], "title", [], "any", false, false, false, 13), [" " => "-"])])), "html", null, true);
+            echo "\">Read more</a>
+
         </div>
     ";
             $context['_iterated'] = true;
@@ -132,14 +137,14 @@ class __TwigTemplate_cd549b1ffd48e58c6a6d0646e3cc337d561d00e482ebda440ab5d35d3d7
             }
         }
         if (!$context['_iterated']) {
-            // line 15
+            // line 17
             echo "        Aucun article trouvé.
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['article'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 17
+        // line 19
         echo "    <a href=\"";
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_index");
         echo "\">
@@ -166,7 +171,7 @@ class __TwigTemplate_cd549b1ffd48e58c6a6d0646e3cc337d561d00e482ebda440ab5d35d3d7
 
     public function getDebugInfo()
     {
-        return array (  143 => 17,  136 => 15,  120 => 12,  112 => 11,  109 => 10,  91 => 9,  87 => 8,  84 => 7,  75 => 6,  57 => 4,  35 => 2,);
+        return array (  148 => 19,  141 => 17,  124 => 13,  120 => 12,  112 => 11,  109 => 10,  91 => 9,  87 => 8,  84 => 7,  75 => 6,  57 => 4,  35 => 2,);
     }
 
     public function getSourceContext()
@@ -182,7 +187,9 @@ class __TwigTemplate_cd549b1ffd48e58c6a6d0646e3cc337d561d00e482ebda440ab5d35d3d7
     {% for article in articles %}
         <div>
             <h2>{{ loop.index }} / {{ article.title }} - Category : {{ article.category.name }}</h2>
-            <p>{{ article.content }}</p>
+            <p>{{ article.content [:150] }}</p>
+            <a href=\"{{ path('show',{'slug':article.title | replace({\" \":\"-\"})}) | lower }}\">Read more</a>
+
         </div>
     {% else %}
         Aucun article trouvé.

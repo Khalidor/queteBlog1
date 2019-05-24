@@ -84,10 +84,6 @@ class __TwigTemplate_d627d1130e329e6ded2d3f6cdb2821310084aa05e1841d925a63beab5bd
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['categoryArticle'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 10
-        echo "
-
-";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -108,7 +104,7 @@ class __TwigTemplate_d627d1130e329e6ded2d3f6cdb2821310084aa05e1841d925a63beab5bd
 
     public function getDebugInfo()
     {
-        return array (  88 => 10,  80 => 8,  73 => 7,  69 => 6,  65 => 4,  56 => 3,  34 => 1,);
+        return array (  80 => 8,  73 => 7,  69 => 6,  65 => 4,  56 => 3,  34 => 1,);
     }
 
     public function getSourceContext()
@@ -122,8 +118,7 @@ class __TwigTemplate_d627d1130e329e6ded2d3f6cdb2821310084aa05e1841d925a63beab5bd
     {{ categoryArticle.id }}: {{ categoryArticle.title }}<br>
     {{ categoryArticle.content }}<br>
     {% endfor %}
-
-
+{#<h1>{{ category.name }} {{ category.id }}</h1>#}
 {% endblock %}", "blog/category.html.twig", "/var/www/html/symfony/blog/queteBlog1/templates/blog/category.html.twig");
     }
 }

@@ -67,14 +67,23 @@ class __TwigTemplate_ac65b960a81cc28e41fe7a10cc7a865a7273843b9847b02d34204f1eb33
         // line 13
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("index");
         echo "\">Tous mes articles</a>
+        <a class=\"navbar-brand text-light\" href=\"";
+        // line 14
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("test");
+        echo "\">Test</a>
+        <a class=\"navbar-brand text-light\" href=\"";
+        // line 15
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("show_category", ["categoryName" => "javascript"]);
+        echo "\">Selecao</a>
+
     </nav>
 </header>
 ";
-        // line 16
+        // line 19
         $this->displayBlock('body', $context, $blocks);
-        // line 17
+        // line 20
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 18
+        // line 21
         echo "</body>
 </html>
 
@@ -122,7 +131,7 @@ class __TwigTemplate_ac65b960a81cc28e41fe7a10cc7a865a7273843b9847b02d34204f1eb33
 
     }
 
-    // line 16
+    // line 19
     public function block_body($context, array $blocks = [])
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -139,7 +148,7 @@ class __TwigTemplate_ac65b960a81cc28e41fe7a10cc7a865a7273843b9847b02d34204f1eb33
 
     }
 
-    // line 17
+    // line 20
     public function block_javascripts($context, array $blocks = [])
     {
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
@@ -168,7 +177,7 @@ class __TwigTemplate_ac65b960a81cc28e41fe7a10cc7a865a7273843b9847b02d34204f1eb33
 
     public function getDebugInfo()
     {
-        return array (  143 => 17,  126 => 16,  109 => 7,  91 => 5,  78 => 18,  76 => 17,  74 => 16,  68 => 13,  64 => 12,  58 => 8,  56 => 7,  51 => 5,  45 => 1,);
+        return array (  152 => 20,  135 => 19,  118 => 7,  100 => 5,  87 => 21,  85 => 20,  83 => 19,  76 => 15,  72 => 14,  68 => 13,  64 => 12,  58 => 8,  56 => 7,  51 => 5,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -186,6 +195,9 @@ class __TwigTemplate_ac65b960a81cc28e41fe7a10cc7a865a7273843b9847b02d34204f1eb33
     <nav class=\"navbar navbar-expand-lg navbar-light bg-primary\">
         <a class=\"navbar-brand text-light\" href=\"{{ path('app_index')}}\">Blog.</a>
         <a class=\"navbar-brand text-light\" href=\"{{ path('index')}}\">Tous mes articles</a>
+        <a class=\"navbar-brand text-light\" href=\"{{ path('test')}}\">Test</a>
+        <a class=\"navbar-brand text-light\" href=\"{{ path('show_category',{'categoryName':'javascript'})}}\">Selecao</a>
+
     </nav>
 </header>
 {% block body %}{% endblock %}

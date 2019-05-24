@@ -32,6 +32,7 @@ class BlogController extends AbstractController
         );
     }
 
+
     /**
      * @Route("/blog/show/{slug}", name="show",
      *     defaults={"slug"="Article Sans Titre"},
@@ -42,19 +43,38 @@ class BlogController extends AbstractController
     {
         $slug = str_replace("-", " ", $slug);
         $slug = ucwords($slug);
-        return $this->render('blog/show.html.twig', ['slug' => $slug]);
+        $article=$this->getDoctrine()->getRepository(Article::class)->findOneBy(['title' => $slug]);
+
+        return $this->render('blog/show.html.twig', ['article' => $article]);
     }
+
+
+
+
 
     /**
      * @Route("blog/category/{categoryName}", name="show_category")
+     * @return Response A response instance
      */
-    public function showByCategory (string $categoryName)
+    public function showByCategory (string $categoryName) : Response
     {
 
         $category=$this->getDoctrine()->getRepository(Category::class)->findOneBy(['name' => $categoryName]);
-        $categoryArticles = $this->getDoctrine()->getRepository(Article::class)->findBy(['Category' => $category
-            ], ['id' => 'DESC'], 3);
-        return $this->render('blog/category.html.twig', ['categoryArticles' => $categoryArticles]);
+        /*$categoryArticles = $this->getDoctrine()->getRepository(Article::class)->findBy(['Category' => $category
+        ], ['id' => 'DESC'], 3);*/
+        $categoryArticles = $category->getArticles();
+
+        return $this->render('blog/category.html.twig', ['categoryArticles' => $categoryArticles,
+            'category'=> $category]);
 
     }
+    /**
+     * @Route("/blog/test", name="test")
+     */
+    public function test()
+    {
+        return $this->render('blog/test.html.twig', ['test' => "test"
+        ] );
+    }
+
 }
