@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}Welcome!{% endblock %}</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+    {{ encore_entry_link_tags('app') }}
     {% block stylesheets %}{% endblock %}
+
 </head>
 <body>
 <header>
@@ -17,6 +19,7 @@
     </nav>
 </header>
 {% block body %}{% endblock %}
+{{ encore_entry_script_tags('app') }}
 {% block javascripts %}{% endblock %}
 </body>
 </html>
