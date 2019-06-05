@@ -1,6 +1,6 @@
 <?php
 
-namespace ContainerATTlSR9;
+namespace ContainerJjhkZnb;
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -57,6 +57,7 @@ class srcApp_KernelDevDebugContainer extends Container
             'var_dumper.cloner' => 'getVarDumper_ClonerService',
         ];
         $this->fileMap = [
+            'App\\Controller\\ArticleController' => 'getArticleControllerService.php',
             'App\\Controller\\BlogController' => 'getBlogControllerService.php',
             'App\\Controller\\CategoryController' => 'getCategoryControllerService.php',
             'App\\Controller\\DefaultController' => 'getDefaultControllerService.php',
@@ -498,6 +499,9 @@ class srcApp_KernelDevDebugContainer extends Container
             return ($this->privates['data_collector.request'] ?? ($this->privates['data_collector.request'] = new \Symfony\Component\HttpKernel\DataCollector\RequestDataCollector()));
         }, 1 => 'onKernelResponse'], 0);
         $instance->addListener('kernel.request', [0 => function () {
+            return ($this->privates['debug.debug_handlers_listener'] ?? $this->getDebug_DebugHandlersListenerService());
+        }, 1 => 'configure'], 2048);
+        $instance->addListener('console.command', [0 => function () {
             return ($this->privates['debug.debug_handlers_listener'] ?? $this->getDebug_DebugHandlersListenerService());
         }, 1 => 'configure'], 2048);
         $instance->addListener('kernel.request', [0 => function () {

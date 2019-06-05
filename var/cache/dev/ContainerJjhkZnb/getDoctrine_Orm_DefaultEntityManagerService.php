@@ -48,6 +48,7 @@ $a->setRepositoryFactory(new \Doctrine\Bundle\DoctrineBundle\Repository\Containe
     'App\\Repository\\ArticleRepository' => ['privates', 'App\\Repository\\ArticleRepository', 'getArticleRepositoryService.php', true],
     'App\\Repository\\CategoryRepository' => ['privates', 'App\\Repository\\CategoryRepository', 'getCategoryRepositoryService.php', true],
     'App\\Repository\\NameRepository' => ['privates', 'App\\Repository\\NameRepository', 'getNameRepositoryService.php', true],
+    'App\\Repository\\TagRepository' => ['privates', 'App\\Repository\\TagRepository', 'getTagRepositoryService.php', true],
     'App\\Repository\\UserRepository' => ['privates', 'App\\Repository\\UserRepository', 'getUserRepositoryService.php', true],
 ])));
 
